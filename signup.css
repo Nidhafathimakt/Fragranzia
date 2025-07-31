@@ -1,0 +1,143 @@
+
+
+body{
+    font-family: 'Poppins','sanserif';
+}
+.signup-content{
+    display: flex;
+    align-items: center;
+    width: 1458.85px;
+    height: 800px;
+    padding: 40px 60px;
+    gap: 130px;
+   margin-top: -145px;
+    margin-left: 60px;
+    position: fixed;
+}
+.image-section{
+    background: rgba(0,0, 0, 0.6) url(perfume-last-longer-3-640x872.jpeg);
+    width: 40%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    Border-top-right-radius:200px;
+    Border-bottom-left-radius:200px;
+    position: relative;
+    background-blend-mode: darken;
+}
+
+.image-section h2{
+    color: white;
+    margin-top: 32%;
+    margin-left: 25%;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 0.2cm;
+    font-family: 'Poppins','sanserif'; 
+}
+.image-section p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 0px 110px;
+    word-spacing: 0.2ch;
+    font-weight: 200;
+    line-height: 0.5cm;
+    font-family: 'Poppins';
+}
+.social-signup{
+    gap: 10px;
+    display: flex;
+}
+
+.google-btn, .fb-btn{
+    border-radius: 5px;
+    width: 50%;
+    height: 30px;
+    box-shadow: 0.2ch;
+    background-color: white;
+    font-size: 12px;
+    font-weight: 500;
+   text-align: center;
+   border: 1.5px solid #00354b;
+}
+
+.divider{
+   display: flex;
+   align-items: center;
+   font-size: 11px;
+   margin-top: 5%;
+
+}
+
+.divider::before, .divider::after{
+     flex: 1;
+  content: '';
+  padding: 0.5px;
+  background-color: black;
+  margin: 10px;
+}
+form{
+    width: 100%;
+}
+.input-box{
+    position: relative;
+    margin: 20px 0;
+}
+.input-box input{
+    width: 80%;
+    padding: 10px 20px 10px 40px;
+    background: #c9c9c9;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    color: #333;
+    font-weight: 400;
+}
+.input-box i{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translate(-50%);
+    font-size: 15px;
+    color: rgb(47, 46, 46);
+}
+.input-box j{
+    position: absolute;
+    right: 2px;
+    top: 50%;
+    color: #626161;
+}
+.checkbox{
+    font-size: 13px;
+    color: black;
+}
+.checkbox input{
+    margin-top: -20%;
+    margin-bottom: 10%;
+}
+a{
+    color: #00354b;
+    font-weight: 500;
+}
+.signup-btn {
+    width: 280px;
+    height: 40px;
+    background: #00354b;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px; 
+    cursor: pointer;
+}
+h6{
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    margin-top: 5%;
+}

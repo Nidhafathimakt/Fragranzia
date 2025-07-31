@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="cart.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary px-3">
+    <div class="container-fluid">
+      <a class="navbar-brand" style="color: #00354b;" href="#">Fragranzia</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Gifting</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="about.html">About</a>
+          </li>
+        </ul>
+
+        <form class="d-flex align-items-center position-relative me-3 my-2 my-lg-0" role="search"
+          style="min-width: 200px;">
+          <i class="fa-solid fa-magnifying-glass position-absolute" style="left: 15px; color: #555;"></i>
+          <input class="form-control ps-5 rounded-pill" type="search" placeholder="Search Here" aria-label="Search"
+            style="font-size: 14px;" />
+        </form>
+
+        <div class="nav-icons">
+          <span class="circles border" style="background-color: #00354b; color: white;" role="button"><i
+              class='bx bx-cart bx-sm' onclick="window.location.href='cart.html'"></i></span>
+          <span class="circles border"><i class="fa-regular fa-bell"></i></span>
+          <span class="circles border"><i class="fa-regular fa-user"
+              onclick="window.location.href='signup.html'"></i></span>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid mx-5">
+  <div class="cart row justify-content-between mt-4 ">
+    <div class="cart-left col-md-8">
+      <h2>Cart</h2>
+      <a href="#">Home > Cart</a>
+      <div class="cart-box d-flex border mt-2 ">
+
+        <img src="autograph.jpeg" alt="" width="100" height="100">
+        <div class="cart-details">
+          <h4>Autograph eau de parfum 100ml for men</h4>
+          <button class="add-btn">
+            - <b>1</b> +
+          </button>
+          <div class="price d-flex d-grid gap-2">
+            <h6><b>RS 899</b></h6>
+            <p class="text-decoration-line-through text-secondary">RS 2000</p>
+            <p class=" fw-bold">61% off</p>
+          </div>
+          <div class="cart-btn d-flex d-grid gap-3">
+            <button class="dlt">Delete</button>
+            <button class="share">Share</button>
+            <button class="buy">Buy</button>
+          </div>
+        </div>
+      </div>
+      <div class="cart-box d-flex border mt-2">
+
+        <img src="oud_musk.webp" alt="" width="100" height="100">
+        <div class="cart-details">
+          <h4>Autograph eau de parfum 100ml for men</h4>
+          <button class="add-btn">
+            - <b>1</b> +
+          </button>
+          <div class="price d-flex d-grid gap-2">
+            <h6><b>RS 899</b></h6>
+            <p class="text-decoration-line-through text-secondary">RS 2000</p>
+            <p class="fw-bold">61% off</p>
+          </div>
+          <div class="cart-btn d-flex d-grid gap-2">
+            <button class="dlt">Delete</button>
+            <button class="share">Share</button>
+            <button class="buy">Buy</button>
+          </div>
+        </div>
+      </div>
+      <div class="cart-box d-flex border mt-2 ">
+
+        <img src="nereus.webp" alt="" width="100" height="100">
+        <div class="cart-details">
+          <h4>Royal eau de parfum 100ml for men</h4>
+          <button class="add-btn ">
+            - <b>1</b> +
+          </button>
+          <div class="price d-flex d-grid gap-2">
+            <h6><b>RS 899</b></h6>
+            <p class="text-decoration-line-through text-secondary">RS 2000</p>
+            <p class="fw-bold">61% off</p>
+          </div>
+          <div class="cart-btn d-flex d-grid gap-2">
+            <button class="dlt">Delete</button>
+            <button class="share">Share</button>
+            <button class="buy">Buy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cart-right col-md-4">
+      <div class="check border p-2 mx-1">
+        <h6><b>Check Out</b></h6>
+        <div class="details d-flex">
+          <div class="text">
+            <li>Price (3 item)</li>
+            <li>Discount</li>
+            <li>Delivery Charge</li>
+            <a>Total Amount </a>
+          </div>
+          <div class="amount">
+            <b>
+              <li>RS 3,097</li>
+              <li>RS 4,404</li>
+              <li>Free</li>
+              <a> RS 3,493</a>
+            </b>
+          </div>
+        </div>
+      </div>
+      <button class="mt-2">Proceed to Buy</button>
+      <p class="mt-4">Safe and Secure Payments. Easy <br>returns.100% Authentic products. </p>
+    </div>
+  </div>
+  </div>
+  <!--footer-->
+  <div class="footer-column">
+    <div class="footer">
+      <div class="brand">
+        <h4>Fragranzia</h4>
+      </div>
+
+      <div class="column-section">
+        <div class="pages">
+          <h6>Pages</h6>
+          <p>Home</p>
+          <p>Products</p>
+          <p>Gifting</p>
+          <p>About</p>
+          <p>Profile</p>
+        </div>
+
+        <div class="quick-links">
+          <h6>Quick Links</h6>
+          <p>Privacy policy</p>
+          <p>Terms and <br> conditions</p>
+          <p>FAQs</p>
+          <p>Customer <br>service</p>
+        </div>
+
+        <div class="contact">
+          <p><i class="fa-regular fa-envelope"></i> tfrafurniture@gmail.com</p>
+          <p mt-1><i class="fa-solid fa-phone"></i> +91 9876543210</p>
+
+          <h6 class="mt-4">Social Media</h6>
+          <div class="icons">
+            <i class="fa-brands fa-instagram "></i>
+            <span class="circle">
+              <f class="fa-brands fa-facebook-f"></f>
+            </span>
+            <t class="fa-brands fa-x-twitter"></t>
+            <span class="square">
+              <f class="fa-solid fa-play"></f>
+            </span>
+            <span class="square1">
+              <l class="fa-brands fa-linkedin-in"></l>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-links">
+        <span>Web Accessibility</span>
+        <span>|</span>
+        <span>Terms of Use</span>
+        <span>|</span>
+        <span>Privacy Statement</span>
+        <span>|</span>
+        <span>Contact Us</span>
+      </div>
+      <div class="copyright">
+        © 2024 fragranzia Company. All rights reserved.
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

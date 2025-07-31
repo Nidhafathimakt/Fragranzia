@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="purchase.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary px-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" style="color: #00354b;" href="#">Fragranzia</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html"
+                            >Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fw-bold" href="products.html" style="color: #00354b;">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Gifting</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About</a>
+                    </li>
+                </ul>
+
+                <form class="d-flex align-items-center position-relative me-3 my-2 my-lg-0" role="search"
+                    style="min-width: 200px;">
+                    <i class="fa-solid fa-magnifying-glass position-absolute" style="left: 15px; color: #555;"></i>
+                    <input class="form-control ps-5 rounded-pill" type="search" placeholder="Search Here"
+                        aria-label="Search" style="font-size: 14px;" />
+                </form>
+
+                <div class="nav-icons">
+                    <span class="circles border" role="button"><i class='bx bx-cart bx-sm'
+                            onclick="window.location.href='cart.html'"></i></span>
+                    <span class="circles border"><i class="fa-regular fa-bell"></i></span>
+                    <span class="circles border"><i class="fa-regular fa-user"
+                            onclick="window.location.href='signup.html'"></i></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+        <div class="content d-flex mt-5 mx-5">
+            <div class="left-content">
+                <div class="product d-flex border">
+                    <img src="autograph.jpeg" alt="" width="100" height="100">
+                    <div class="cart-details">
+                        <h4>Autograph eau de parfum 100ml for men</h4>
+                        <p>Autograph <b>4.5</b> <i class='bx bxs-star'></i></p>
+                        <button class="add-btn">
+                            - <b>1</b> +
+                        </button>
+                        <div class="price d-flex d-grid gap-2">
+                            <h6><b>RS 899</b></h6>
+                            <p class="text-decoration-line-through text-secondary">RS 2000</p>
+                            <p class="fw-bold">61% off</p>
+                        </div>
+                        <div class="delivery">
+                            <p>Deliverd by August 29, Free delivey <i class="bi bi-truck text-dark"></i></p>
+                            <li>7 day return policy</li>
+                        </div>
+                    </div>
+                </div>
+                <h6><b>Personal Details</b></h6>
+                <div class="place-btn d-flex d-grid gap-2 mt-3">
+                    <button class="address">Add address +</button>
+                    <button class="home">Home</button>
+                    <button class="office">Office</button>
+                </div>
+                <div class="add-edit d-flex justify-content-between">
+                    <h6><b>Address</b></h6>
+                    <p>Edit</p>
+                </div>
+                <div class="person-add border pt-2 px-3">
+                    <h6>Rohan Jaison</h6>
+                    <p>Appartment No. 104, Emerald Heights Opposite Lulu Mall Edappally, <br> Kochi Kerala682024</p>
+                    <p>+91 98765432210</p>
+                </div>
+            </div>
+            <div class="right-content">
+                <div class="price-details border  mx-4">
+                    <h6><b>Price Details</b></h6>
+                    <div class="line">
+                        <div class="details d-flex">
+                            <div class="text">
+                                <li>Price (1 item)</li>
+                                <li>Discount (61%)</li>
+                                <li>Delivery Charge</li>
+                            </div>
+                            <div class="amount ">
+                                <div class="text-line d-flex">
+                                    <li><b>RS 899</b></li>
+                                    <p class="text-decoration-line-through text-secondary ">RS 2000</p>
+                                </div>
+                                <b>
+                                    <li>RS 1101</li>
+                                    <li class="free">Free Delivery</li>
+                                </b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="details1 d-flex ">
+                        <div class="text">
+                            <p>Total Amount </p>
+                        </div>
+                        <div class="amount">
+                            <p><b>RS 899</b> </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="payment-box mx-4 mt-4">
+                    <h5><b>Payment Methods</b></h5>
+                    <div class="payment-option">
+                        <label>
+                            <img src="google-pay.png" alt="Google Pay" />
+                            Google Pay
+                            <input type="radio" name="payment" checked />
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                    <div class="payment-option">
+                        <label>
+                            <img src="cash.png" alt="Cash on Delivery" />
+                            Cash on delivery (cash/UPI)
+                            <input type="radio" name="payment" />
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                    <div class="payment-option">
+                        <label>
+                            <img src="paytm.png" alt="Wallet" />
+                            Paytm/Phone Pay/Amazon Pay etc
+                            <input type="radio" name="payment" />
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                    <div class="payment-option">
+                        <label>
+                            <img src="card.png" alt="">
+                            Credit/Debit card
+                            <input type="radio" name="payment" />
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                    <div class="payment-option">
+                        <label>
+                            <img src="online-banking.png" alt="Bank" />
+                            Net Banking
+                            <input type="radio" name="payment" />
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                    <button class="pay-btn" onclick="window.location.href='conformpage.html'">Pay Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
