@@ -425,4 +425,22 @@
 .footer-links span {
   margin-right: 10px;
 }
-
+@media (max-width: 768px) {
+  .whislist{
+    max-width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .left-content{
+    margin-left: -12%;
+    width: 100%;
+  }
+  .icon{
+    margin-left: -22%;
+  }
+  
+  .quantity-selector .add-btn{
+    width: 25%;
+    height: auto;
+  }
+  }

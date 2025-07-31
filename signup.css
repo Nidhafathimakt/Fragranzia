@@ -12,7 +12,7 @@ body{
     gap: 130px;
    margin-top: -145px;
     margin-left: 60px;
-    position: fixed;
+    
 }
 .image-section{
     background: rgba(0,0, 0, 0.6) url(perfume-last-longer-3-640x872.jpeg);
@@ -140,4 +140,29 @@ h6{
     color: black;
     text-align: center;
     margin-top: 5%;
+}
+@media (max-width: 768px){
+    .signup-content{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        margin-left: -16%;
+    }
+    .image-section{
+        width: 100%;
+        height: auto;
+        padding-top: 80%;
+        margin-top: 34%;
+    }
+    .text{
+        padding: 20px;
+    }
+    .text h2{
+        font-size: 30px;
+        margin-top: -25%;
+    }
+    .text p{
+        font-size: 10px;
+       line-height: 3ch;
+    }
 }

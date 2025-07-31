@@ -247,3 +247,22 @@ header{
   margin-right: 10px;
 }
 
+@media (max-width: 768px) {
+  .filter{
+    width: 100%;
+    height: auto;
+    font-size: 10px;
+  flex-direction: column;
+  }
+  .filter button{
+    width: 20%;
+    height: auto;
+  }
+  .price{
+    margin-top: 8%;
+  }
+  .header{
+    margin-left: 3%;
+    
+  }
+}

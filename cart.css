@@ -343,3 +343,51 @@ form i {
 .footer-links span {
   margin-right: 10px;
 }
+@media (max-width: 768px)  {
+  .cart-left{
+    padding: 250px;
+    width: 100%;
+    height:auto;
+    flex-direction: column;
+
+  }
+  .cart-box{
+    width: 100%;
+    height: auto;
+    margin-left:-15%;
+  }
+  .cart{
+    flex-direction: column;
+    padding: 0 15px;
+  }
+.cart-details{
+  width: 100%;
+  height: auto;
+}
+.cart-details h4{
+  font-size: 8px;
+}
+.price p{
+  font-size: 10px;
+}
+.price h6{
+  font-size: 15px;
+  margin-top: 2%;
+}
+.add-btn{
+  width: 30%;
+  height: auto;
+}
+.cart-btn{
+  width: 55%;
+  height: auto;
+}
+.cart-right{
+  width: 80%;
+  height: auto;
+}
+.cart-right button{
+  width: 75%;
+  height: auto;
+}
+}
