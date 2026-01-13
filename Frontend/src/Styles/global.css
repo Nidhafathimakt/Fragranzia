@@ -1,0 +1,51 @@
+@import url('./variable.css');
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+ *{
+    font: "poppins";
+ }
+.brandName h2{
+     color: var(--primary-color);
+}
+.banner {
+    background-color: var(--primary-color);  
+}
+.cards {
+    background-color: var(--card-color);
+}
+.featured{
+    color: var(--primary-color);
+}
+.cart-btn{
+    background-color: var(--primary-color);
+}
+.banner-btn{
+    background-color: var(--primary-color);
+}
+.footerBackground{
+    background-color: var(--footer-color);
+}
+.footerBackground h2{
+    color: var(--primary-color);
+}
+.icon:hover{
+    background-color: var(--primary-color);
+    color: white;
+}
+.proceed-btn{
+    background-color: var(--primary-color);
+}
+.buy-btn{
+    background-color: var(--primary-color);
+    color: white;
+}
+.itemAdd{
+    border-color: var(--primary-color);
+
+}
+.underlineText{
+    color: var(--primary-color);
+}

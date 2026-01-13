@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+.banner{
+     width: 100%;
+    height: 40px;
+}
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+.scrollbar-hide {
+    scrollbar-width: none;
+}
+.bg-perfume-banner{
+    background: linear-gradient(90deg, #D0F7FB 0%, #C4F1FA 40%, #B3EDF8 100%);
+
+}
+@media (max-width: 768px){
+    .banner h6{
+        font-size: 10px;
+    }
+
+}
+
+
