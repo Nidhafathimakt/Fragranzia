@@ -49,3 +49,6 @@
 .underlineText{
     color: var(--primary-color);
 }
+ .sidebarItem{
+    background-color: var(--primary-color);
+ }
